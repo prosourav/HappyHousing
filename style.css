@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 60px;
+}
