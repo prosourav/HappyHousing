@@ -10,3 +10,10 @@ h1{
     color: brown;
     margin-top: 60px;
 }
+p{
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    margin-left: 30%;
+}
