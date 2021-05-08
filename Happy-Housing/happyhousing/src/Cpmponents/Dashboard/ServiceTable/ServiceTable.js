@@ -5,13 +5,13 @@ const ServiceTable = () => {
 
     const [ServiceAll,setServiceAll] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:8000/services')
+        fetch('https://shrouded-caverns-99745.herokuapp.com/services')
         .then(res=>res.json())
         .then(data=>setServiceAll(data));
     },[ServiceAll]);
     console.log('data',ServiceAll);
     const handleDelete=(id)=>{
-        const url = `http://localhost:8000/servicedelete/${id}`;
+        const url = `https://shrouded-caverns-99745.herokuapp.com//${id}`;
         fetch(url,{
             method:'DELETE'
         })

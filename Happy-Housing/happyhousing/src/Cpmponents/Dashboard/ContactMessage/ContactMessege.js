@@ -6,7 +6,7 @@ import './ContactMessege.css';
 const ContactMessege = () => {
     const [contactReq,setContactReq] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:8000/readContactreq')
+        fetch('https://shrouded-caverns-99745.herokuapp.com/readContactreq')
         .then(res=>res.json())
         .then(data=>setContactReq(data));
     },[contactReq]);

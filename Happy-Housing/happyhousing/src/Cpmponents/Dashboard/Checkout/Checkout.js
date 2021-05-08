@@ -45,7 +45,7 @@ const Checkout = () => {
         neworder.status = 'Pending';
         console.log('newservice: ',service);
 
-        const url = 'http://localhost:8000/order';
+        const url = 'https://shrouded-caverns-99745.herokuapp.com/order';
         fetch(url,{
         method:'POST',
         headers:{

@@ -4,7 +4,7 @@ import './Maketeam.css'
 const Maketeam = () => {
     const [team,setTeam] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:8000/admin')
+        fetch('https://shrouded-caverns-99745.herokuapp.com/admin')
         .then(res=>res.json())
         .then(data=>setTeam(data.length > 2 ? data.slice(data.length-2,data.length) : data));
     },[team]);

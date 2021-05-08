@@ -5,7 +5,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 const Projects = () => {
     const [RecentProjects,setRecentProjects] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:8000/projects')
+        fetch('https://shrouded-caverns-99745.herokuapp.com/projects')
         .then(res=>res.json())
         .then(data=>setRecentProjects(data.length > 3 ? data.slice(data.length-3,data.length) : data));
     },[RecentProjects]);

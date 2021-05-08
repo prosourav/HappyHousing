@@ -7,7 +7,7 @@ const Dashboard = () => {
     useEffect(()=>{
         const userEmail = sessionStorage.getItem('email');
         // console.log(userEmail);
-        const url = 'http://localhost:8000/orders';
+        const url = 'https://shrouded-caverns-99745.herokuapp.com/orders';
         fetch(url,{
             method:'POST',
             headers: {'content-type' : 'application/json'},

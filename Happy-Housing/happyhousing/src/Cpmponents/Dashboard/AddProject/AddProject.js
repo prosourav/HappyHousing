@@ -36,7 +36,7 @@ const AddProject = () => {
     //   e.preventDefault();
       const newProject = {...project}
         newProject.img = imgUrl;
-      const url = 'http://localhost:8000/addproject';
+      const url = 'https://shrouded-caverns-99745.herokuapp.com/addproject';
       fetch(url,{
         method:'POST',
         headers:{

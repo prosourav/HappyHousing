@@ -37,7 +37,7 @@ const AddService = () => {
       // e.preventDefault();
       const newservice = {...service}
         newservice.img = imgUrl;
-      const url = 'http://localhost:8000/addservice';
+      const url = 'https://shrouded-caverns-99745.herokuapp.com/addservice';
       fetch(url,{
         method:'POST',
         headers:{

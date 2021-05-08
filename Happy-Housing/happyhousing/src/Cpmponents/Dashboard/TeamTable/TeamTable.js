@@ -5,13 +5,13 @@ const TeamTable = () => {
 
     const [team,setTeam] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:8000/admin')
+        fetch('https://shrouded-caverns-99745.herokuapp.com/admin')
         .then(res=>res.json())
         .then(data=>setTeam(data));
     },[team]);
 
     const handleDelete = (id) =>{
-        const url = `http://localhost:8000/deleteadmin/${id}`;
+        const url = `https://shrouded-caverns-99745.herokuapp.com/${id}`;
         fetch(url,{
             method:'DELETE'
         })

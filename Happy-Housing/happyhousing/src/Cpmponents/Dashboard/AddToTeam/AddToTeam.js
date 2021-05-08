@@ -33,7 +33,7 @@ const AddToTeam = () => {
         const newmember = {...member}
               newmember.photo = imgUrl;
             
-              const url = 'http://localhost:8000/addmember';
+              const url = 'https://shrouded-caverns-99745.herokuapp.com/addmember';
       fetch(url,{
         method:'POST',
         headers:{

@@ -10,7 +10,7 @@ const Sidebar = () => {
   const [isAdmin,setIsAdmin] = useState(false);
   const email = sessionStorage.getItem('email');
   useEffect(()=>{
-    const url = `http://localhost:8000/isAdmin?email=${email}`;
+    const url = `https://shrouded-caverns-99745.herokuapp.com/isAdmin?email=${email}`;
     fetch(url)
     .then(res=> res.json())
     .then(data=> setIsAdmin(data));

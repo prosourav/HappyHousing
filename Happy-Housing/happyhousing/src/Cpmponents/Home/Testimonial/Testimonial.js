@@ -7,7 +7,7 @@ import TestimoniaCard from '../TestimonialCard/TestimoniaCard';
 const Testimonial = () => {
     const [reviews,setreviews] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:8000/reveiws')
+        fetch('https://shrouded-caverns-99745.herokuapp.com/reveiws')
         .then(res=>res.json())
         .then(data=>setreviews( data.length > 4 ? data.slice(data.length-4,data.length) : data));
     },[reviews]);

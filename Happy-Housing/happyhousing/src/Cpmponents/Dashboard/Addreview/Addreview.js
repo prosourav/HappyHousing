@@ -26,7 +26,7 @@ const Addreview = () => {
           newreview.img = loggedInUser.photoURL;
           newreview.name = loggedInUser.name;
    
-          const url = 'http://localhost:8000/addreview';
+          const url = 'https://shrouded-caverns-99745.herokuapp.com/addreview';
           fetch(url,{
             method:'POST',
             headers:{

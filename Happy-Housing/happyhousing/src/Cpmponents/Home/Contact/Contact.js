@@ -14,7 +14,7 @@ const Contact = () => {
     const handleSubmit = (e) =>{
         const newcontact = {...contact}
         newcontact.time = new Date().toLocaleString();
-        const url = 'http://localhost:8000/contact';
+        const url = 'https://shrouded-caverns-99745.herokuapp.com/contact';
         fetch(url,{
             method:'POST',
             headers:{
