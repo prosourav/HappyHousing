@@ -1,0 +1,9 @@
+@media (max-width: 760px){
+    .service-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .marginleft{
+        margin-left: 12%;
+    }
+}

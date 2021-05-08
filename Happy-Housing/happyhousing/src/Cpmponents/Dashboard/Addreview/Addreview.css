@@ -1,0 +1,14 @@
+.review-form{
+    margin: 12% auto;
+    background-color:whitesmoke;
+    width: 55%;
+    height: 55%;
+    padding: 8%;
+}
+@media (max-width: 760px){
+    .review-form h1{
+        font-size: 14px;
+    }
+       
+    
+}

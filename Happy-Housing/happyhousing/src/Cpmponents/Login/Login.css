@@ -1,0 +1,25 @@
+.login-box{
+    /* height: 400px; */
+    width: 370px;
+    border: 2px solid grey;
+    margin-left: 36%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.signIn{
+    padding-top:10%; 
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.no-outline:focus {
+    outline: none;
+  }

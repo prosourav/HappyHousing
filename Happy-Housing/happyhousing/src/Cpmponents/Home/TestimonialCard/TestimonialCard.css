@@ -1,0 +1,28 @@
+.testimonial-box img{
+    height: 150px;
+    width: 150px;
+    border-radius: 60%;
+}
+.testimonial-box{
+    height: 350px;
+    width: 310px;
+    margin: 2px 10px;
+}
+.testimonial-box:hover img{
+    display: none;
+}
+.testimonial-box:hover h3{
+    padding-top: 60%;
+    color: whitesmoke;
+}
+.testimonial-box:hover small{
+    color: rgb(213, 203, 203);
+}
+.testimonial-box:hover{
+    background-image: url('./../../../Image/customer-review.png');   
+    background-size:130px; 
+    background-repeat: no-repeat; 
+    background-position:90px 40px;
+    background-color: rgb(104, 102, 135);
+    transition:1s;
+   }

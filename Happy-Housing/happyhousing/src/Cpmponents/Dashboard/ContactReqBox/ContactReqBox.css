@@ -1,0 +1,18 @@
+.my-contactBox{
+    height: 300px;
+    width: 300px;
+    padding: 2%;
+    margin: 2%;
+    background:whitesmoke;
+    border-radius: 5px;
+}
+.my-contactBox span{
+    color: darkred;
+}
+.para{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+    font-weight: bold;
+}

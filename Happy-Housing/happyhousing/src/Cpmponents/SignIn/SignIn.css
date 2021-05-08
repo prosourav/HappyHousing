@@ -1,0 +1,12 @@
+.signin-box{
+    /* height: 550px; */
+    width: 480px;
+    border: 2px solid grey;
+    margin-left: 35%;
+    margin-top: 4%;
+    padding-top: 4%;
+    padding-bottom: 25px;
+}
+.signIn{
+    padding-top:10%; 
+}

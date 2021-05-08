@@ -1,0 +1,13 @@
+.reviews{
+      background-image: linear-gradient(7deg, rgb(241, 230, 255), rgb(255, 255, 255));
+     /* background-image: linear-gradient(7deg, rgb(241, 241, 255), rgb(255, 255, 255)); */
+}
+@media (max-width: 760px){
+      .testimonial-section{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .margin{
+            width: 130%;
+      }
+  }

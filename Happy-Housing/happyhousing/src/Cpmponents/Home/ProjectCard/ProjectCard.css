@@ -1,0 +1,13 @@
+.projects img{
+    height: 300px;
+    width: 290px;
+    border-radius: 10px;
+}
+.projects{
+    background-color:ghostwhite;
+    padding: 10px;
+    width: 425px;
+    height: 440px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
