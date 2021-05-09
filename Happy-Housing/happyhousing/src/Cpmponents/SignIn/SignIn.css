@@ -10,3 +10,9 @@
 .signIn{
     padding-top:10%; 
 }
+@media (max-width: 760px){
+    .signin-box{
+        margin: 5% 15%;
+        width: 400px;
+    }
+}

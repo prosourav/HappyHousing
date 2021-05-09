@@ -100,8 +100,8 @@ const Login = () => {
       <h6 className='pt-4'>New User?</h6>
       <Link to='/signup'>SignUp</Link>
         </div>
-        <h5>Or</h5><br/>
-        <button onClick={handleGoogleLogin} style={{borderRadius:'20px',height:'70px', width:'22rem', marginBottom:'2%'}}>
+        <h5 className='loginoption'>Or</h5><br/>
+        <button className='loginButton' onClick={handleGoogleLogin} style={{borderRadius:'20px',height:'70px', width:'22rem', marginBottom:'2%'}}>
         <img  src={google} alt="" style={{ width:'34px', marginRight:'15px'}}/>Continue With Google</button>
 
         </div>

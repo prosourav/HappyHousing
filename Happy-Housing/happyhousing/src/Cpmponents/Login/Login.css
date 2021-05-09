@@ -23,3 +23,14 @@ input{
 .no-outline:focus {
     outline: none;
   }
+  @media (max-width: 760px){
+      .login-box{
+          margin: 5% 20%;
+      }
+      .loginButton{
+          margin: 0 25%;
+      }
+      .loginoption{
+        margin-left: 50%;
+      }
+  }
